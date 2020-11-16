@@ -21,10 +21,9 @@ body {
 
 img,
 video {
-  width: 62.9%;
+  width: 100%;
   height: auto;
   display: block;
-  justify-self: center;
 }
 
 /* Begin Header Navbar Styles */
@@ -151,8 +150,9 @@ video {
 
 .hero-image-box {
   height: 100vh;
-  max-width: 100%;
+  max-width: 62.9%;
   display: grid;
+  justify-self: center;
   grid-column: 1 / -1;
   grid-row: 1 / -1;
 }
