@@ -21,10 +21,10 @@ body {
 
 img,
 video {
-  width: 100%;
+  width: 62.9%;
   height: auto;
   display: block;
-  align-items: center;
+  justify-self: center;
 }
 
 /* Begin Header Navbar Styles */
